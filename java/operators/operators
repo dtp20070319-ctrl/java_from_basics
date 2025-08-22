@@ -1,0 +1,54 @@
+symbol that that tells compiler to perform some operators 
+a+b  here a&b is operent and + sign is operator
+binari operator :- +(add) , -(sub) , *(multi) , /(divide) , %(modulo)
+unari operator:- ++ (increment operator) , -- (decrement operator)
+
+increment opretor :- 1: pre increment ++a(change value then use value)
+                     2: post increment a++(use value then change value)
+
+dectrement opr :- 1: pre decrement ++a(change value then use value)
+                 2: post decrement a++(use value then change value)
+
+relational operator:- == (equal to)
+                     != (not equal)
+                     > (grater)
+                     < (lessthen)
+                     >=(graterthen and equal to)
+                     <=(lessthen and equal to)
+
+
+logical opretor:- 1- && (logical AND ) :- both statment should be true then only true
+                  2- || (logical OR) :-  at least one should be true then its true
+                  3 - ! (logical NOT) :- reverse the statment ,converts true value to false and false to true.
+
+ binary number system base 2 
+ 0 - 000
+ 1 - 001
+ 2 - 010
+ 3 - 011
+ 4 - 100
+ 5 - 101
+ 6 - 110
+ 7 - 111
+
+
+catale - base 8
+hexa decimal - base 18
+
+
+bitwise operators:-
+1. & (binary AND) : to palay with bits 
+2. | (binari OR) : same as logic with bits
+3. ^ (binary XOR) : similar value then FALSE different value then TRUE
+4. ~ (binary one's complement) : 1 convert to 0 and 0 converted to 1 (to convert positive to negative andnagative to positive)
+5. << (binary Left shift) : to sift the whole bit in Left 
+   for example : if bit is 010 <<(left shift) 1(by 1) then ans will be 100
+6. >> (binary Right sift) : to sift the whole bit in right
+   for example : if bit is 010 >>(right shift) 1(by 1) then ans will be 001
+
+assignment operator
+1. = : to store the value
+2. += : a = a+b
+3. -= : a = a-b
+4. *= : a = a*b
+5. /= : a = a/b

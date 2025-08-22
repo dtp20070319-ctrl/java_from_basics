@@ -1,0 +1,35 @@
+there are 4 major operation
+1. get bit(to know bit in any position)
+2. set bit (to add 1 in any bit)
+3. clear bit(to remove 1 from bit)
+4. update bit(to change if there is 1 change to 0 or vice versa)
+
+1. get bit
+ex get the 3rd(position =2) bit of number n .(n=0101)
+bit mask : 1<<i :- 1<<2 -> 0100
+operation :AND -> 0101 & 0100 AND operation is 0100  it is non zero our bit was 1
+
+2. set the 2nd(position =1) bit of number n .(n=0101)
+bit mask : 1<<i -> 0101 right sift by 1 then 0010
+operation : OR -> 0010 | 0101 will be 0111
+
+3. clear bit 
+to clear the bit menas convert the 1 to 0
+example Clear the 3rd bit (position 2) of a num n (n=0101)
+bit mask 1<<i -> 1<<2 => 0100(bitmask)
+operation ':  AND WITH NOT => ~(0100) -> 1011
+              (1011) & (0101) -> 0001
+
+4. UPDATE BIT : 
+to update thr bits 0 to 1 or 1 to 0
+example : Upadate the 2nd bit (position 1 ) of a number n to 1(n = 0101)
+
+ there are 2 cases :- 
+
+ case 1. Upadate the 2nd bit (position 2 ) of a number n to 0(n = 0101)
+ to convert 1 to 0 => bit mask  : (step 1)1 << 2 => 0001 <<2 -> 0100(bitmask)
+`                                 (2nd step) : ~(1011)| (0101) => 0001
+
+ case 2.Upadate the 2nd bit (position 1 ) of a number n to 1(n = 0101)
+  to convert 0 to 1 => (1st step)1<<1 -> 0001 <<1 => 0010
+                         (2nd step): ~(0010)| (0101) => 0111
