@@ -1,0 +1,7 @@
+ A function that calls itself is called recurtion
+
+ ex f(x)= x2 then f(f(x)) = f(x2)
+
+
+
+ 
